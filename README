@@ -1,0 +1,14 @@
+Project to see how my Pool Manager in action.
+
+In Demo_Scene/Manager/PoolManager you can create different pools for each object you need,
+adding a element to the list, inserting the object prefabs , the pool name and the initial quantity.
+In this way the PoolManager will instantiate a pool for each object of the indicated quantity as child of PoolManager.
+
+Once the scene is played, with the SpaceBar the player starts/stops shooting , by taking an object from the pool,
+if the pool is too small and there are not enough objects a new one is instantiated at runtime and taken.
+
+In the Player you can edit the FireRate, while in the Bullet prefab you can edit the MoveSpeed ​​and the Duration,
+when the pooled object is deactivated it becomes available again to be taken again.
+
+In this scene the pooled object does not have a particular behavior, 
+but if necessary you can add a particular behavior and ResetMethod (e.g. some model deactivated, particle reset, scale changed) if some parameters have been modified during the active life of the object.
