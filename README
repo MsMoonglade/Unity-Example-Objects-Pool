@@ -1,4 +1,4 @@
-Project to see how my Pool Manager in action.
+Project to see my Pool Manager in action.
 
 In Demo_Scene/Manager/PoolManager you can create different pools for each object you need,
 adding a element to the list, inserting the object prefabs , the pool name and the initial quantity.
